@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:src="@drawable/ic_person_24dp"
+        android:layout_width="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/detail_nama"
+        android:drawableLeft="@drawable/ic_contacts_black_24dp"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/detail_hp"
+        android:enabled="false"
+        android:drawableLeft="@drawable/ic_smartphone_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/detail_gender"
+        android:enabled="false"
+        android:drawableLeft="@drawable/ic_favorite_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/detail_jenjang"
+        android:enabled="false"
+        android:drawableLeft="@drawable/ic_flight_takeoff_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/detail_hobi"
+        android:enabled="false"
+        android:drawableLeft="@drawable/ic_fitness_center_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/detail_alamat"
+        android:enabled="false"
+        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

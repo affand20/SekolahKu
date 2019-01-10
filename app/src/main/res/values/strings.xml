@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SekolahKu</string>
+    <string name="haloo">haloo!</string>
+    <string-array name="spinner_entry">
+        <item>TK</item>
+        <item>SD</item>
+        <item>SMP</item>
+        <item>SMA</item>
+    </string-array>
+</resources>
